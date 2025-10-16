@@ -8,7 +8,7 @@ const userController = require('../controllers/userController');
 // Menampilkan semua pengguna
 router.get('/', userController.getAllUsers);
 // Menambahkan pengguna baru
-router.post('/add', userController.createUser);
+router.post('/', userController.createUser);
 // Form sederhana di browser untuk menambah use
 router.get('/form', (req, res) => {
   res.send(`
