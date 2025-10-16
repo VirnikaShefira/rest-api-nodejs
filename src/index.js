@@ -1,3 +1,5 @@
+// Import library dotenv
+require('dotenv').config();
 // Import library Express
 const express = require('express');
 // Import routes dari folder routes
